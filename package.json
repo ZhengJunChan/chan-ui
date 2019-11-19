@@ -1,0 +1,44 @@
+{
+  "name": "chan-ui-vue3",
+  "private": true,
+  "version": "0.0.0",
+  "description": "components used vue3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhengJunChan/chan-ui.git"
+  },
+  "keywords": [
+    "chan-ui-vue3"
+  ],
+  "author": "ZhengJunChan <zhengjunchan@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhengJunChan/chan-ui/issues"
+  },
+  "homepage": "https://github.com/ZhengJunChan/chan-ui#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@storybook/addon-actions": "^6.3.7",
+    "@storybook/addon-essentials": "^6.3.7",
+    "@storybook/addon-links": "^6.3.7",
+    "@storybook/vue3": "^6.3.7",
+    "babel-loader": "^8.2.2",
+    "lerna": "^4.0.0",
+    "vue-loader": "^16.5.0",
+    "vue": "^3.0.0",
+    "css-loader": "^5.2.7",
+    "sass": "^1.38.0",
+    "sass-loader": "10.1.1",
+    "style-loader": "^2.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {}
+}
