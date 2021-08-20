@@ -1,4 +1,4 @@
-import '../packages/theme-chalk/lib/index.scss'
+import '../packages/theme-chalk/src/index.scss'
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },

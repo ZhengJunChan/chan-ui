@@ -14,6 +14,14 @@ $ lerna create @chan-ui-vue3/组件名称
 $ npm run storybook
 ```
 
+4、项目发布
+```bash
+$ npm run publish
+```
+
+## TODO
+1、
+
 ## lerna相关
 1、在package中创建npm包
 ```bash

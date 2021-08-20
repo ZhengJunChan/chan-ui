@@ -1,0 +1,33 @@
+$--color-primary: #ff0000;
+$padding: 10px;
+$margin: 10px;
+
+.chan-drag-item {
+    width: 130px;
+    display: flex;
+    align-items: center;
+    padding: $padding;
+    border: 1px dashed rgba(255, 0, 0, 0.2);
+    cursor: move;
+    color: #333;
+    background: #fff;
+    &:hover {
+        background-color: rgba(255, 0, 0, 0.05)
+    }
+
+    &__title {
+        flex: 1;
+    }
+    &__suffix {
+        text-align: right;
+        &-icon {
+            font-size: 22px;
+            color: #333;
+        }
+    }
+}
+.chan-drag-drop-layout__drop-view {
+    &>div {
+        min-height: 50px;
+    }
+}

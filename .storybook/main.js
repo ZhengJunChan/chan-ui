@@ -1,4 +1,5 @@
 const path = require('path');
+const rules = require('../config/rules')
 
 module.exports = {
   "stories": [
@@ -15,11 +16,9 @@ module.exports = {
     // 'PRODUCTION' is used when building the static version of storybook.
 
     // Make whatever fine-grained changes you need
-    config.module.rules.push({
-      test: /\.s[ac]ss$/i,
-      use: ['style-loader', 'css-loader', 'sass-loader'],
-      include: path.resolve(__dirname, '../'),
-    });
+    rules.forEach(rule => {
+      config.module.rules.push(rule);
+    })
 
     // Return the altered config
     return config;

@@ -1,0 +1,11 @@
+.chan-configuration-layout {
+    display: flex;
+    &>div {
+        border: 2px solid red;
+        flex: 1;
+    }
+
+    .selected {
+        background-color: rosybrown;
+    }
+}

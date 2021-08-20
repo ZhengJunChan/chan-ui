@@ -1,0 +1,28 @@
+/* chan-ui Chalk Variables */
+
+$--colors: () !default;
+$--colors: map.deep-merge(
+  (va r
+    'white': #ffffff,
+    'black': #000000,
+    'primary': (
+      'base': rgba(241, 26, 26, 0.365),
+    ),
+    // 'success': (
+    //   'base': #74e43c,
+    // ),
+    // 'warning': (
+    //   'base': #f3f343,
+    // ),
+    // 'danger': (
+    //   'base': #f11a1a,
+    // ),
+    // 'error': (
+    //   'base': #f11a1a,
+    // ),
+    // 'info': (
+    //   'base': #909399,
+    // ),
+  ),
+  $--colors
+);
